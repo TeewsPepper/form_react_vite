@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import Formulario from './components/Formulario'
 import AgendaConsultas from './components/AgendaConsultas'
+import Footer from './components/Footer';
 
 function App() {
   
@@ -40,6 +41,7 @@ function App() {
          eliminarConsulta={eliminarConsulta}
       />
     </div>
+    <Footer />
 
 
 

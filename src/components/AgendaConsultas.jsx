@@ -14,7 +14,7 @@ const AgendaConsultas = ({ consultantes, setConsultante, eliminarConsulta }) => 
           <h2 className="text-white text-3xl text-center">Listado de Consultas</h2>
           <p className="text-white text-xl mt-5 mb-10 text-center">
             Administra tus {""}
-            <span className="text-blue-600 font-bold">Citas y consultas</span>
+            <span className="text-fuchsia-600 font-bold">Citas y consultas</span>
           </p>
 
           { consultantes.map((consultante) => (

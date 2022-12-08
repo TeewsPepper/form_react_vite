@@ -40,13 +40,13 @@ const Consultante = ({consultante, setConsultante, eliminarConsulta}) => {
         <div className="flex justify-between mt-10">
           <button
             type="button"
-            className="py-2 px-3 bg-transparent border hover:bg-blue-600 text-white font-bold rounded-lg"
+            className="py-2 px-3 bg-transparent border hover:bg-purple-600 text-white font-bold rounded-lg"
             onClick={() => setConsultante(consultante) }
           >Editar</button>
   
           <button
             type="button"
-            className="py-2 px-3 bg-transparent border hover:bg-blue-600 text-white font-bold rounded-lg"
+            className="py-2 px-3 bg-transparent border hover:bg-purple-600 text-white font-bold rounded-lg"
             onClick={handleEliminar}
           >Eliminar</button>
   

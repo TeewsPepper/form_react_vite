@@ -79,7 +79,7 @@ function Formulario({consultantes, setConsultantes, consultante, setConsultante}
     <div className='md:w-1/2 lg:w-2/5 mx-5'>
       <h2 className='text-white text-3xl text-center'>Consultas</h2>
       <p className='text-white text-lg mt-5 text-center mb-10'>Añade las consultas y {''}
-        <span className='text-blue-600 font-bold'>Adminístralas</span>
+        <span className='text-fuchsia-600 font-bold'>Adminístralas</span>
       </p>
       <form
         onSubmit={handleSubmit} // Función que maneja el envío de los datos ingresados en el form
@@ -146,7 +146,7 @@ function Formulario({consultantes, setConsultantes, consultante, setConsultante}
         </div>
             <input 
                 type="submit"
-                className='bg-transparent border  w-full p-3 text-white uppercase font-bold hover:bg-blue-600 cursor-pointer transition-all'
+                className='bg-transparent border rounded-lg w-full p-3 text-white uppercase font-bold hover:bg-purple-600 cursor-pointer transition-all'
                 value={consultante.id ? "Guardar Cambios" : "Agregar Consulta"}
             />
               {error && <Error><p>Debes llenar todos los campos</p></Error>}
