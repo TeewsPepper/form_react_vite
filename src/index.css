@@ -1,0 +1,28 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300;400;500;600;700&family=Comforter+Brush&family=Inconsolata:wght@200;300;400;500&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,600;0,900;1,400&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: rgba(108, 209, 108, 0.6); */
+  background-image: url(./assets/img/12.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.4;
+  gap: 3rem;
+}
+
+
+
